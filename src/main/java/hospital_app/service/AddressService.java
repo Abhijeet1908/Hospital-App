@@ -1,11 +1,11 @@
-package hospital_app.dao;
+package hospital_app.service;
 
 import java.util.List;
 
 import hospital_app.dto.Address;
 import hospital_app.dto.Branch;
 
-public interface AddressDao{
+public interface AddressService{
 
 	Address saveAddress (Address address,int branch_id);
 

@@ -4,7 +4,7 @@ import java.util.List;
 
 import hospital_app.dto.Encounter;
 
-public interface EncounterDao {
+public interface Encounter_Dao {
 
 	Encounter saveEncounter(int branch_id, int person_id, Encounter encounter);
 

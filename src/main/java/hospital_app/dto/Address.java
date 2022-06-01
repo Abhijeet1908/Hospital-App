@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
 @Entity
@@ -15,6 +16,7 @@ public class Address {
 	private String state;
 	private String country;
 	@OneToOne
+	@JoinColumn
 	private Branch branch;
 	public int getId() {
 		return id;
@@ -49,3 +51,4 @@ public class Address {
 	
 
 }
+

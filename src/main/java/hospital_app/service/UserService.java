@@ -1,10 +1,10 @@
-package hospital_app.dao;
+package hospital_app.service;
 
 import java.util.List;
 
 import hospital_app.dto.User;
 
-public interface UserDao {
+public interface UserService {
 	User saveUser(User user);
 
 	User validateUser(String email, String password);

@@ -1,10 +1,10 @@
-package hospital_app.dao;
+package hospital_app.service;
 
 import java.util.List;
 
 import hospital_app.dto.Observation;
 
-public interface ObservationDao {
+public interface ObservationSerivice {
 
 	Observation createObservation(Observation observation, int encounter_id);
 

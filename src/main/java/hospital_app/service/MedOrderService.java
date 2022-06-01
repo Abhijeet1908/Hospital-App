@@ -1,11 +1,11 @@
-package hospital_app.dao;
+package hospital_app.service;
 
 import java.util.List;
 
 import hospital_app.dto.Item;
 import hospital_app.dto.MedOrder;
 
-public interface MedOrderDao {
+public interface MedOrderService{
 
 	MedOrder saveMedOrder(MedOrder medOrder, int encounter_id);
 
